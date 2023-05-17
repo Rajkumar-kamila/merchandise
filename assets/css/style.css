@@ -278,7 +278,7 @@ input[type=checkbox], input[type=radio] {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color: #dd1d26;
+  color:var(--bs-gray);
   text-transform: capitalize; }
   @media only screen and (max-width: 575px) {
     .sub-title {
@@ -328,7 +328,7 @@ a.theme-btn {
   -ms-flex-pack: center;
   justify-content: center;
   text-transform: capitalize;
-  background: #dd1d26; }
+  background: var(--bs-gray); }
   .theme-btn i,
   a.theme-btn i {
     -webkit-transition: 0.5s;
@@ -8224,7 +8224,7 @@ h1, h2, h3, h4, h5, h6, .tab-btns-one .nav-link .title {
     margin-right: 25px;
     width: 60px;
     height: 60px;
-    background: #dd1d26;
+    background: var(--bs-gray);
     line-height: 60px;
     border-radius: 50%;
     text-align: center; }
