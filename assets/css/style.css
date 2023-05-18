@@ -278,7 +278,7 @@ input[type=checkbox], input[type=radio] {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color:var(--bs-gray);
+  color:#dd1d26;
   text-transform: capitalize; }
   @media only screen and (max-width: 575px) {
     .sub-title {
@@ -328,7 +328,7 @@ a.theme-btn {
   -ms-flex-pack: center;
   justify-content: center;
   text-transform: capitalize;
-  background: var(--bs-gray); }
+  background: #dd1d26; }
   .theme-btn i,
   a.theme-btn i {
     -webkit-transition: 0.5s;
@@ -4618,7 +4618,7 @@ h1, h2, h3, h4, h5, h6, .tab-btns-one .nav-link .title {
     padding-top: 20px; }
 
 .what-we-provide-item {
-  padding: 30px;
+  padding: 30px 20px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -8265,14 +8265,15 @@ h1, h2, h3, h4, h5, h6, .tab-btns-one .nav-link .title {
   position: absolute;
   z-index: 1;
   top: 13px;
-  left: 0; }
+  left: 0;
+  padding: 0px 14px; }
 
 #contactForm .form-group .nice-select,
 #contactForm .form-group .form-control {
   border: none;
   margin-right: 0;
   border-radius: 0;
-  padding-left: 30px;
+  padding-left: 45px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   #contactForm .form-group .nice-select .list,
   #contactForm .form-group .form-control .list {
