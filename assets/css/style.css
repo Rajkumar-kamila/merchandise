@@ -8379,3 +8379,22 @@ h1, h2, h3, h4, h5, h6, .tab-btns-one .nav-link .title {
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
   .footer-bottom .copyright-text a {
     color: #dd1d26; }
+
+  .service-item:hover .changeonhide {
+    display: none;
+  }
+  
+  .service-item:hover .changeonshow {
+    display: block!important;
+    margin-top: 3px;
+ }
+  .what-we-provide-item:hover .changeonhide {
+    display: none;
+    
+  }
+  
+  .what-we-provide-item:hover .changeonshow {
+    display: block!important;
+    margin-top: 3px;
+    margin: auto;
+ }
